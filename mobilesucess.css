@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body,html {
+    background-color: rgb(255, 255, 255) ;
+    width: 100vw;
+    height: 100vh;
+    transition: all .3s;
+  }
+  .sucess {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+  }
+
+  button {
+    position: absolute;
+    bottom: 40px;
+    height: 50px;
+    width: 100%;
+    background-color: #242742;
+    color: white;
+    font-size: large;
+  }
+  div.tha {
+    margin: 50% 0px;
+  }
+
+  img {
+    width: 70px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 36pt;
+    color: #242742;
+
+  }
+
+  p {
+    font-size: 18pt;
+    line-height: 25px;
+    color: rgb(0, 0, 0, 0.9);
+    padding-top: 10px;
+  }

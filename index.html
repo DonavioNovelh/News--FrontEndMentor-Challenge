@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" media="screen and (max-width: 450px)" href="style.css">
+<link rel="stylesheet" media="screen and (min-width: 451px)" href="mairo.css">
+
+<style>
+
+input.ema:focus:invalid {
+  background-color: ivory;
+  border: none;
+  outline: 2px solid rgb(255, 38, 0);
+  border-radius: 5px;
+  accent-color: gold;
+}
+
+input.ema:valid {
+  background-color: ivory;
+  border: none;
+  outline: 2px solid deepskyblue;
+  border-radius: 5px;
+  accent-color: gold;
+}
+</style>
+
+<body style="position: relative;">
+  <article >
+    <div class="imagem">
+    </div>
+    <form action="" class="bt">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul style="list-style-type: circle;">
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+    
+      <label for="email">Email address</label>
+      <input class="ema" type="email" placeholder="email@company.com" required>
+      <input class="but" type="submit" value="Subscribe to monthly newsletter">
+    </form>
+  </article>
+
+  <script src="javinha.js">
+   /* const d = document.querySelector('.bt');
+    const ema = document.querySelector('.ema');
+   
+    d.addEventListener('submit', (event) => {
+      // Prevenir o envio do formulário
+      event.preventDefault();
+
+
+
+      if (!ema.checkValidity()) {
+    // Definir uma mensagem de erro personalizada
+    ema.setCustomValidity('Por favor, insira um endereço de email válido.');
+    
+    // Mostrar a mensagem de erro
+    ema.reportValidity();
+  } else {
+    // Se o email for válido, podemos prosseguir
+    console.log('Email válido:', ema.value);
+  }
+
+    });*/
+  </script>
+</body>
+</html>

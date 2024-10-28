@@ -1,0 +1,85 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body,html {
+    background-color: rgb(255, 255, 255) ;
+    width: 100vw;
+    height: 100vh;
+    transition: all .3s;
+  }
+   div {
+    height: 230px;
+    width: 100%;
+    background-image: url(assets/images/illustration-sign-up-mobile.svg);
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0px 0px 020px 020px;
+    background-attachment: inherit;
+    
+    
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 14px;
+    font-size: 27pt;
+  }
+  p, ul, li {
+    font-size: 15pt;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+
+  label {
+    font-size: 16px;
+    padding-top: 20px;
+    display: block;
+    font-weight: bold;
+    padding-bottom:5px ;
+  }
+
+  article {
+    position: absolute;
+    top: 0px;
+  }
+
+  .articlevairSumir {
+    position: absolute;
+    top: -100vh;
+    transition: top 2s ;
+  }
+
+  input {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 13pt;
+    border-width: 1.5px;
+  
+  }
+
+  input.but{
+    background-color:   #242742;
+    font-weight: bold;
+    color: white;
+  }
+
+  input.ema{
+  
+    text-indent: 20px;
+  }
