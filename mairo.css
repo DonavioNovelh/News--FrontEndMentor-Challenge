@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Roboto";
   }
 
   body,html {
@@ -29,10 +31,10 @@
     padding: 20px;
     border-radius: 10px;
     gap: 20px;
-    min-width: 601px;
+    min-width: 708px;
     max-width: 900px;
     justify-content: center;
-    width: 100%;
+    width: 90%;
    
   }
 
@@ -48,6 +50,7 @@
     object-fit: cover;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 
     
     
