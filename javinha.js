@@ -4,7 +4,7 @@ var dr =  document.querySelector('.but');
 var body =  document.querySelector('article');
 console.log(input);
 console.log(form);
-input.value = 'jdjasha@hjajsa';
+input.value;
 
 form.addEventListener('submit', (eventt) => {
     
